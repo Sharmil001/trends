@@ -1,0 +1,37 @@
+.mySwiper {
+  position: relative;
+  width: auto;
+  height: 80vh;
+}
+
+.btn-shope-this {
+  margin-top: 20px;
+  line-height: 1.42;
+  text-decoration: none;
+  text-align: center;
+  white-space: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  display: inline-block;
+  padding: 11px 20px;
+  margin-top: 20px;
+  width: auto;
+  min-width: 90px;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #fff;
+  background: #111111;
+}
+.shope-this {
+  position: absolute;
+  right: 10vh;
+  top: 85vh;
+  text-align: center;
+  z-index: 1;
+}

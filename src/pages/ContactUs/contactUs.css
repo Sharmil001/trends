@@ -1,0 +1,178 @@
+.main-contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.name-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name,
+.email,
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input,
+.email-input {
+  border: 1px solid #c9caca !important;
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.message-textarea {
+  border: 1px solid #c9caca !important;
+  width: 300px;
+  height: 100px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
+
+.btn-send {
+  line-height: 1.42;
+  text-decoration: none;
+  text-align: center;
+  white-space: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  display: inline-block;
+  padding: 11px 30px !important;
+  margin: 0;
+  width: auto;
+  min-width: 90px;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #fff;
+  background: #111111;
+}
+
+@media (min-width: 1023px) {
+  .main-contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-us-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+    font-weight: 400;
+    letter-spacing: 4px;
+  }
+
+  .contact-us-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .name-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .name,
+  .email,
+  .message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .name-input {
+    margin-right: 20px;
+  }
+  .name-input,
+  .email-input {
+    border: 1px solid #c9caca !important;
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .email-input {
+    width: "400px";
+    margin-top: "20px";
+    border: 1px solid #c9caca !important;
+  }
+
+  .input-label {
+    font-size: small;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+
+  .submit-button {
+    margin-top: 20px;
+  }
+
+  .btn-send {
+    line-height: 1.42;
+    text-decoration: none;
+    text-align: center;
+    white-space: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    display: inline-block;
+    padding: 11px 30px !important;
+    margin: 0;
+    width: auto;
+    min-width: 90px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #fff;
+    background: #111111;
+  }
+  .message-textarea {
+    border: 1px solid #c9caca !important;
+    width: 820px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+}

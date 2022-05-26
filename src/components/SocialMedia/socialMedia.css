@@ -1,0 +1,11 @@
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid #e6eaea;
+}
+
+i {
+  padding: 5px;
+  cursor: pointer;
+}

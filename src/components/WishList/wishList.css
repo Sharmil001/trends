@@ -1,0 +1,107 @@
+.header-template {
+  display: flex;
+  align-items: center;
+}
+.wishlist-header {
+  margin-left: 10px;
+  font-size: 23px;
+}
+.wishList-items {
+  color: #b1b1b1;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+.card-data {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-item {
+  padding: 20px;
+}
+
+.btn-add-cart {
+  line-height: 1.42;
+  text-decoration: none;
+  text-align: center;
+  white-space: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 8px 10px;
+  margin: 0;
+  width: auto;
+  min-width: 90px;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #fff;
+  background: #111111;
+}
+.p-card {
+  padding: 10px !important;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 5%), 0 1px 1px 0 rgb(0 0 0 / 4%),
+    0 1px 3px 0 rgb(0 0 0 / 6%) !important;
+}
+.wishList-img {
+  width: 100px;
+}
+
+@media (min-width: 1023px) {
+  .header-template {
+    display: flex;
+    align-items: center;
+  }
+
+  .wishlist-header {
+    margin-left: 10px;
+    font-size: 23px;
+  }
+  .wishList-items {
+    color: #b1b1b1;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  .card-data {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .btn-add-cart {
+    line-height: 1.42;
+    text-decoration: none;
+    text-align: center;
+    white-space: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 8px 10px;
+    margin: 0;
+    width: auto;
+    min-width: 90px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #fff;
+    background: #111111;
+  }
+  .p-card {
+    padding: 10px !important;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 5%), 0 1px 1px 0 rgb(0 0 0 / 4%),
+      0 1px 3px 0 rgb(0 0 0 / 6%) !important;
+  }
+}

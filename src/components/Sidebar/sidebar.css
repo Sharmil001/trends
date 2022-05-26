@@ -1,0 +1,80 @@
+.sidenav__main {
+  border-bottom: none;
+  background-color: #ffffff;
+  color: #353636;
+  position: fixed;
+  height: 100%;
+  margin-top: 10px;
+}
+.sidenav__main > .sidenav__inner__main {
+  position: relative;
+}
+.sidenav__main > .sidenav__inner__main > .sidenav__scroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+  width: 280px;
+}
+.sidenav__main > .sidenav__inner__main > .sidenav__scroll > .sidenav__item {
+  position: relative;
+  display: block;
+  padding: 24px 36px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #202121;
+  cursor: pointer;
+  border-bottom: 1px solid #e6eaea;
+  text-decoration: none;
+}
+
+.sidenav__main > .sidenav__inner__main > .sidenav__scroll > .sidenav__items {
+  position: relative;
+  display: block;
+  padding: 24px 36px;
+  font-size: medium;
+  color: #202121;
+  cursor: pointer;
+  text-decoration: none;
+}
+.first-item {
+  border-top: 1px solid #e6eaea;
+}
+.sidenav__main
+  > .sidenav__inner__main
+  > .sidenav__scroll
+  > .sidenav__item:hover {
+  background-color: #f4f7f6;
+}
+
+.sidenav__main
+  > .sidenav__inner__main
+  > .sidenav__scroll
+  > .sidenav__items:hover {
+  background-color: #f4f7f6;
+}
+.sidenav__item.active {
+  background-color: #f4f7f6;
+}
+
+.sidenav__header {
+  text-align: right;
+  padding: 10px 25px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #202121;
+  cursor: pointer;
+  text-decoration: none;
+}
+.sidenav__main
+  > .sidenav__inner__main
+  > .sidenav__scroll
+  > .social-media-icons {
+  display: flex;
+  position: relative;
+  display: block;
+  padding: 10px 36px;
+  font-size: medium;
+  color: #202121;
+  cursor: pointer;
+  text-decoration: none;
+}
